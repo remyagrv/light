@@ -1,45 +1,48 @@
-.App {
-  text-align: center;
-  border-width:'4px';
-  border-style: double;
-  margin-left: 500px;
-  margin-right: 500px;
-  height: 300px;
-  font-weight: bolder;
-}
-.bulb-off,
-.bulb-on {
- 
-
-
-  height: 55px;
-  width: 55px;
+@media only screen and (max-width: 600px){
+  .App {
+    text-align: center;
+    border-width:'4px';
+    border-style: double;
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 300px;
+    font-weight: bolder;
+  }
+  .bulb-off,
+  .bulb-on {
+   
   
-  border-radius: 50%;
- margin-left: 50px;
-
-}
-
-
-
-.bulb-off{
-  background-color: gray;
-}
-.bulb-on{
-  background-color: yellow;
-}
-
-
-
-
-
-
-
-button{
   
-margin-left: 30px;
-margin-bottom: 50px;
+    height: 55px;
+    width: 55px;
+    
+    border-radius: 50%;
+   margin-left: 50px;
+  
+  }
+  
+  
+  
+  .bulb-off{
+    background-color: gray;
+  }
+  .bulb-on{
+    background-color: yellow;
+  }
+  
+  
+  
+  
+  
+  
+  
+  button{
+    
+  margin-left: 30px;
+  margin-bottom: 50px;
+    
+  }
+  
+  
   
 }
-
-
